@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: bisque;
+}
+.container{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.logo h1{
+ margin-left: 40px;
+font-size: 33px;
+color: #000;
+transition: all 0.2s;
+}
+.logo h1:hover{
+    color: rgb(78, 118, 184);
+   
+}
+
+.navigition{
+    margin-right: 300px;
+}
+.navigition li{
+    float: left;
+    margin: 20px;
+    list-style: none;
+}
+.navigition a{
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.2s;
+
+}
+.navigition a:hover{
+    color: #4792bd;
+    text-decoration: underline;
+    font: size 25px; ;
+}
+
+.tel> button{
+   border: none;
+     background-color: #4792bd;
+     width: 91px;
+     height: 43px;
+    position: relative;
+    right: 10px;
+    left: 155px;
+    top: 1px;
+    bottom: 10px
+}
+.tel button:hover{
+    color: #000;
+    background-color: #a1c7dd;
+}
+.tel h3{
+    background-color: #3252c5;
+    padding: 12%;
+     color: #fff;
+     font-size: 15px;
+      font-family: initial;
+}
+.asos1{
+position: absolute;
+width: 550px;
+height: 466px;
+left: 130px;
+top: 200px;
+
+}
+.asos2{
+    position: absolute;
+    left: 600px;
+}
